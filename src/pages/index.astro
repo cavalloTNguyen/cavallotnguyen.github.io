@@ -1,9 +1,10 @@
 ---
-
+const isProd = import.meta.env.PROD;
 ---
 
 <html lang="en">
   <head>
+	{isProd ? (<>
     <!-- Google Tag Manager -->
     <script is:inline>
       (function (w, d, s, l, i) {
@@ -18,6 +19,7 @@
       })(window, document, "script", "dataLayer", "GTM-NHF7T2XT");
     </script>
     <!-- End Google Tag Manager -->
+	</>) : null} 
 
     <meta charset="utf-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -26,6 +28,7 @@
     <title>Astro</title>
   </head>
   <body>
+	{isProd ? (<>
     <!-- Google Tag Manager (noscript) -->
     <noscript
       ><iframe
@@ -35,6 +38,7 @@
         style="display:none;visibility:hidden"></iframe></noscript
     >
     <!-- End Google Tag Manager (noscript) -->
+	</>) : null}
     <h1>Astro</h1>
   </body>
 </html>
