@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Alice",
+    "amount": 100,
+    "status": "voided"
+  },
+  {
+    "name": "Fredrick",
+    "amount": 125,
+    "status": "valid"
+  },
+  {
+    "name": "John",
+    "amount": 350,
+    "status": "valid"
+  },
+  {
+    "name": "Alice",
+    "amount": 187,
+    "status": "valid"
+  },
+  {
+    "name": "John",
+    "amount": 180,
+    "status": "return"
+  }
+]
