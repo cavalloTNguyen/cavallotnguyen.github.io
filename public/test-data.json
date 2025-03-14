@@ -1,26 +1,31 @@
 [
   {
-    "name": "Alice",
+    "customer_number": "FAROINC",
+    "repname": "Alice",
     "amount": 100,
     "status": "voided"
   },
   {
-    "name": "Fredrick",
+    "customer_number": "WESTDIST",
+    "repname": "Fredrick",
     "amount": 125,
     "status": "valid"
   },
   {
-    "name": "John",
+    "customer_number": "FAROINC",
+    "repname": "John",
     "amount": 350,
     "status": "valid"
   },
   {
-    "name": "Alice",
+    "customer_number": "FAROINC",
+    "repname": "Alice",
     "amount": 187,
     "status": "valid"
   },
   {
-    "name": "John",
+    "customer_number": "FAROINC",
+    "repname": "John",
     "amount": 180,
     "status": "return"
   }
